@@ -52,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
+              key: const Key("CountText"),
               style: Theme.of(context).textTheme.headline4,
             ),
             getCard("1増えるボタン", 1, const Key("OneButton")),
